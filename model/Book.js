@@ -11,6 +11,9 @@ const Book = new Schema({
     },
     authorId: {
         type: String
+    },
+    image: {
+        type: String
     }
     
 })
